@@ -1,36 +1,45 @@
 Name: Model_Conflict_Diff_Merge_1
+Id: g=d6a798505c06490c71c48e72a21e5278
 Type: ProjectFolder
 Children:
 - Name: BranchingEnabled
+  Id: g=4319ae8f0b8d58a3a258b8ec6b0f6277
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: PasswordPolicy
+  Id: g=830fd994bbb3352f20d987075f5b4c2c
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=2c1be433d4305c7d41d6a0c7b0f6d8e2
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=8165419b69580133e78031b519babc61
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=0725a9fe863f78ae2d85494d5b2df4ac
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=ebebd5381ee927fa32f61d06bb1afde0
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: Locales
+  Id: g=67202d14115fcbf8027a79fb84710be0
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: ["en-US"]
 - Name: LocaleFallbackList
+  Id: g=fb3557d5a959756ef311c4e9b992fa01
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
@@ -51,11 +60,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: DefaultUserFolder
+  Id: g=8d014d85a6c2ecfb613b677f500d071d
   Type: NodePointer
   DataType: NodeId
   Value: {"IdType":2,"Id":"a098008a75027c0223f2b6b290fa9885","Namespace":7}
   Children:
   - Name: Kind
+    Id: g=f96819143020deeea91ec6bdc8e57e28
     Type: PropertyType
     DataType: NodeId
     Value: {"Id":61}

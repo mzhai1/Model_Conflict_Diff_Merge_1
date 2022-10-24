@@ -1,4 +1,5 @@
 Name: UI
+Id: g=966db4422014659b00c822305fc866f5
 Type: FolderType
 Children:
 - Name: DefaultStyleSheet
@@ -6,96 +7,124 @@ Children:
   Type: StyleSheet
   Children:
   - Name: ButtonStyle
+    Id: g=048a846ced9ee75553bb6a68b5c3173b
     Type: ButtonStyle
   - Name: ButtonAccentStyle
+    Id: g=9e66d4c285d2a66e4356d8b868358267
     Type: ButtonStyle
   - Name: DataInputStyle
+    Id: g=ded2890db92b5afe77aa53c14434a65b
     Type: DataInputStyle
   - Name: SwitchStyle
+    Id: g=7529064c2ff6104af98d496c53176315
     Type: SwitchStyle
   - Name: GaugeStyle
+    Id: g=40714a3955340c8daa83f50bb512c9ca
     Type: GaugeStyle
   - Name: NavigationPanelStyle
+    Id: g=51685fba89fb9398cc83649f68e638c1
     Type: NavigationPanelStyle
   - Name: ChartStyle
+    Id: g=e089c72c399330aa0f781b13e794f5da
     Type: ChartStyle
   - Name: DataListStyle
+    Id: g=9149074afdef2559feb2f5a7098353a0
     Type: DataListStyle
   - Name: ToolTipStyle
+    Id: g=b1dc31aeba5eb493472fd525bf131c9a
     Type: ToolTipStyle
   - Name: ScrollBarStyle
+    Id: g=cacd6e9fe1566e273e9e7119197df48d
     Type: ScrollBarStyle
   - Name: AccordionStyle
+    Id: g=8a2162a1190f38057451173aea7a1a04
     Type: AccordionStyle
   - Name: PieChartStyle
+    Id: g=2bb81f3b8f327dfd01271e0f75544e1d
     Type: PieChartStyle
   - Name: HistogramChartStyle
+    Id: g=1b16eadad6e613b009d81c18dcca80f5
     Type: HistogramChartStyle
 - Name: NativePresentationEngine
+  Id: g=c8b348cd1a5c6c5cf35f6b57771e878c
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
   - Name: EnableVirtualKeyboard
+    Id: g=dbd62c41d19255b8732ac6e9fe703187
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: StartWindow
+    Id: g=4e2ce8c5f3a66e89554b80dfc4837fe3
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"6792e659295780edac2382225cbc07e4","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=9f2da2e6ea9e2e5585f8a2298d5c7c9c
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":12,"Namespace":3}
   - Name: StyleSheet
+    Id: g=90ef12c8233e0c9d665d4cb51bf78da2
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"cf57d58cde9aa1938ee8a366f7f3371e","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=ba71fcfee82a5396d33b914c1639ed3a
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":447,"Namespace":3}
   - Name: StartingUser
+    Id: g=aa2fd626e19f2d11be4bc8993d6e26a3
     Type: NodePointer
     DataType: NodeId
     Value: {"Id":46,"Namespace":1}
     Children:
     - Name: Kind
+      Id: g=906a36649ac2aec2faed31491d069380
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":14,"Namespace":1}
   - Name: Sessions
+    Id: g=6641a084451a30f16451b20f5a185051
     Type: BaseObjectType
 - Name: MainWindow
   Id: g=6792e659295780edac2382225cbc07e4
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=9bdc383040ebd11ab54866a37a5b28b2
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=57c64e9b01677b1604e2e42ca28fa77a
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Label1
+    Id: g=0f50969383941ee24944a34f253d3646
     Type: Label
     Children:
     - Name: Text
+      Id: g=53b7f120e60cad6836a2fd8dec45ea2d
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
     - Name: LeftMargin
+      Id: g=a63674f1a671c50143bc4e73f79ea27e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 100.0
     - Name: TopMargin
+      Id: g=0d9639b6bbc9d67ed91721e62f03b0d2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
